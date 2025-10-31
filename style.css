@@ -1,5 +1,10 @@
 body {
-  background-color: #0a0a23;
+  margin: 0;
+  background: #020024;
+background: linear-gradient(160deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 40%, rgba(0, 212, 255, 1) 100%);
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
 }
 
 #text {
@@ -10,16 +15,18 @@ body {
 
 #game {
   max-width: 500px;
-  max-height: 400px;
+  max-height: 600px;
   background-color: #ffffff;
   color: #ffffff;
-  margin: 30px auto 0px;
-  padding: 10px;
+  margin: 30vh auto;
+  border: 5px solid #8187ac;
+  border-radius: 4px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 #controls,
 #stats {
-  border: 1px solid #0a0a23;
+  border: 1px solid #8187ac;
   padding: 5px;
   color: #0a0a23;
 }
